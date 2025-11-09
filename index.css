@@ -1,4 +1,154 @@
-html, body {
+:root {
+    --white: #FFFFFF;
+    --grey: #D5D4D8;
+    --navy-blue: #1F2937;
+    --light-navy-blue: #3D4B60;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+
     margin: 0;
     padding: 0;
+    border: none;
+}
+
+body {
+    background: var(--navy-blue);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    scale: 98%;
+}
+
+button:focus,
+button:hover {
+    color: black;
+    background-color: #7587a2;
+}
+
+.flex-row {
+    display: flex;
+
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: var(--light-navy-blue);
+}
+
+.content-container {
+    max-width: 1080px;
+
+    height: 100vh;
+
+    margin: 0 auto;
+
+    border-radius: 6px;
+
+    background-color: var(--navy-blue);
+
+    font-size: clamp(9px, 2vw, 16px);
+}
+
+.color-form {
+    padding: 1.5em 2em;
+
+    justify-content: start;
+    align-items: center;
+    gap: 3em;
+}
+
+.color-form-color-selector {
+    width: clamp(3em, 4em, 3.5vw);
+    height: clamp(2em, 3em, 2.5vw);
+
+    border: 4px solid var(--grey);
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.color-form-scheme-selector,
+.color-form-selector-submit-btn {
+    font-size: 1em;
+    color: var(--grey);
+    text-align: center;
+}
+
+.color-form-scheme-selector {
+    padding: 0.5em 0.8em;
+
+    appearance: none;
+    cursor: pointer;
+
+    border: 1px solid var(--grey);
+    border-radius: 6px;
+
+    background-color: var(--navy-blue);
+
+    color: var(--grey);
+    text-align: center;
+}
+
+.color-form-selector-submit-btn {
+    padding: 0.62em 1.5em;
+
+    border-radius: 6px;
+    background-color: var(--light-navy-blue);
+}
+
+main {
+    height: 100%;
+}
+
+.color-card {
+    flex: 1;
+}
+
+.color-box {
+    flex: 9;
+}
+
+.color-hex-btn {
+    flex: 1;
+
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    background-color: var(--navy-blue);
+
+    font-size: 1em;
+    color: var(--grey);
+    text-transform: uppercase;
+}
+
+#color-box1 {
+    background-color: #F55A5A;
+}
+
+#color-box2 {
+    background-color: #2B283A;
+}
+
+#color-box3 {
+    background-color: #FBF3AB;
+}
+
+#color-box4 {
+    background-color: #AAD1B6;
+}
+
+#color-box5 {
+    background-color: #A626D3;
 }

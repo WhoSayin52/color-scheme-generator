@@ -1,25 +1,57 @@
 <html>
 
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <header>
-        <form class="color-selector">
-            <input type="color">
-            <input type="select">
-            <button></button>
-        </form>
-    </header>
+    <div class="content-container flex-col">
+        <header>
+            <form class="color-form flex-row">
+                <input type="color" class="color-form-color-selector">
+                <select class="color-form-scheme-selector">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+                <button class="color-form-selector-submit-btn">Get color scheme</button>
+            </form>
+        </header>
 
-    <main>
-        <div class="color-card">
-            <div class="color-box"></div>
-            <button class="color-hex"></button>
-        </div>
-    </main>
+        <main class="flex-row">
+            <div class="color-card flex-col">
+                <div id="color-box1" class="color-box"></div>
+                <button class="color-hex-btn">#F55A5A</button>
+            </div>
+
+            <div class="color-card flex-col">
+                <div id="color-box2" class="color-box"></div>
+                <button class="color-hex-btn">#2B283A</button>
+            </div>
+
+            <div class="color-card flex-col">
+                <div id="color-box3" class="color-box"></div>
+                <button class="color-hex-btn">#FBF3AB</button>
+            </div>
+
+            <div class="color-card flex-col">
+                <div id="color-box4" class="color-box"></div>
+                <button class="color-hex-btn">#AAD1B6</button>
+            </div>
+
+            <div class="color-card flex-col">
+                <div id="color-box5" class="color-box"></div>
+                <button class="color-hex-btn">#A626D3</button>
+            </div>
+        </main>
+    </div>
 
     <script src="index.js"></script>
 </body>
