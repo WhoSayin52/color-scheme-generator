@@ -1,5 +1,7 @@
 # Color Scheme Generator
 
+![Live Preview](whosayin52.github.io)
+
 ## Table of Contents
 - [Description](#description)
 - [Technologies](#technologies)
