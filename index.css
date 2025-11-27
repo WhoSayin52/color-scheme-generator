@@ -16,7 +16,10 @@
 }
 
 body {
-    background: var(--navy-blue);
+    height: 100vh;
+
+    padding: 1rem 0;
+    background-color: var(--light-navy-blue);
 }
 
 button {
@@ -43,14 +46,10 @@ button:hover {
     flex-direction: column;
 }
 
-body {
-    background-color: var(--light-navy-blue);
-}
-
 .content-container {
     max-width: 1080px;
 
-    height: 100vh;
+    height: 100%;
 
     margin: 0 auto;
 
