@@ -1,6 +1,6 @@
 # Color Scheme Generator
 
-![Live Preview](whosayin52.github.io)
+![Live Preview](https://whosayin52.github.io/color-scheme-generator/)
 
 ## Table of Contents
 - [Description](#description)
