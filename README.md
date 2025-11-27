@@ -24,5 +24,6 @@ Clicking a color's hex code copies it to the clipboard.
 ![TheColorAPI](https://img.shields.io/badge/TheColorAPI-FF6C37?style=for-the-badge&logo=api&logoColor=white)
 
 ## Screenshot
+<img width="1738" height="1349" alt="Screenshot from 2025-11-27 17-24-51" src="https://github.com/user-attachments/assets/19767ca6-5a32-466d-95f6-81e1d72350d6" />
 
 
