@@ -9,7 +9,7 @@
 
 ## Description
 
-A web app that **generates color schemes** based on a selected base color and scheme type.  
+A web app that **generates color schemes** using **The Color API** based on a selected base color and scheme type.  
 Users can pick a color, choose a scheme (Monochrome, Analogic, Complement, Triad, etc.), and instantly see a palette of 5 colors.  
 Clicking a color's hex code copies it to the clipboard.
 
